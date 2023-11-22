@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8"> <!--codifica los caracteres-->
+    <meta name="author" content="Dora Abuaf">
+    <meta name="description" content="Portafolio de Dora Abuaf"><!--hace que salga en la hoja de la web en la etiqueta
+        de arriba-->
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ajusta el tamaño de la ventana
+    al del dispositivo-->
+    <!--titulo-->
+    <title>Servicios Integrales para Empesas</title>
+    <!--Favicom : imagen en la hoja de la web (pestaña de web)-->
+    <!-- <link rel="icon" type="imagenes" href="imagenes/dolar.png"> -->
+    <link rel="icon" type="imagen" href="imagenes/logo 360.jpeg" >
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Iconos de Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+   </head>
+    <body>
+    <!--barra de navegacion con Bootstrap-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <!--el id de la div class debe coincidir con el llamado del id de la row 27 para que el boton sepa
+            a quien esta llamando-->
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="imagenes/logo 360.jpeg" width="50 " alt="logo de la pagina web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <!--con los justigy y el align le decimos donde van a estar los datos ubicados, en este caso centrado-->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi"> <strong>Sobre nosotros</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios"> <strong>Servicios</strong> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Nuestros Clientes</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#contacto"><strong>Contacto</strong></a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!--Seccion principal o Hero-->
+
+      <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            
+            <h1>TE AYUDAMOS A <strong>ORGANIZAR, PLANIFICAR Y ESTRUCTURAR</strong> LOS PROCESOS DE TU EMPRESA</h1>
+            
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="imagenes/logo 360.jpeg" alt="pc , js, html, etc">
+            <img class="hero-inferior-imagen img-fluid" src="imagenes/pc.jpg" alt="pc , js, html, etc">
+            <!--img-fluid es de boostrap y es para que la imagen se adapte al navegador que sea responsiva -->
+        </div>
+      </section>
+      
+      <!-- About me -->
+
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo"> <strong> Conoce a Servicios Integrales 360</strong></h2>
+          <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis ullam voluptatum itaque quis blanditiis deleniti corporis possimus, nostrum aliquid quaerat molestiae adipisci totam veniam labore ad exercitationem repellat unde.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis ullam voluptatum itaque quis blanditiis deleniti corporis possimus, nostrum aliquid quaerat molestiae adipisci totam veniam labore ad exercitationem repellat unde</p>
+        </div>
+      </section>
+
+      <!-- Experiencia -->
+      <section class="experiencia seccion-clara">
+        <div id="servicios" class="container text-center">
+          <div class="row">
+            <div class="columna col-12 col-md-6">
+              <i class="bi bi-bell-fill"></i>
+              <p class="experiencia-titulo">Diagnosticamos e Implementamos</p>
+                
+          
+                  <li>Start up</li>
+                  <li>Armado de Circuitos y grupos de trabajo</li>
+                  <li>Coachind Ejecutivo y de equipos de ventas</li>
+                  <li>Estrategia Comercial</li>
+                  <li>Asesoria Impositiva y Administrativa y Contable</li>
+                  <li>Asesoría legal</li>
+          
+                    <div class="badges-contenedor">
+                      <!-- <span class="badge text-bg-primary">HTML</span>
+                      <span class="badge text-bg-primary">CSS</span>
+                      <span class="badge text-bg-primary">JavaScript</span>
+                      <span class="badge text-bg-primary">React</span> -->
+                    </div>    
+            </div>
+            <div class="columna col-12 col-md-6">
+              <i class="bi bi-bell-fill"></i>
+              <p class="experiencia-titulo">Soluciones para tu empresa</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consectetur dolores distinctio eligendi, eius dignissimos ipsum sapiente, aliquid fugiat adipisci quisquam voluptas</p>
+                    <div class="badges-contenedor">
+                      <!-- <span class="badge text-bg-primary">Escribir</span>
+                      <span class="badge text-bg-primary">Editar</span>
+                      <span class="badge text-bg-primary">Blogs</span>
+                       -->
+                    </div>    
+            </div>
+            <!-- <div class="columna col-12 col-md-4">
+              <i class="bi bi-bell-fill"></i>
+              <p class="experiencia-titulo">Areas</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consectetur dolores distinctio eligendi, eius dignissimos ipsum sapiente, aliquid fugiat adipisci quisquam voluptas</p>
+                    <div class="badges-contenedor">
+                      <span class="badge text-bg-primary">Ventas</span>
+                      <span class="badge text-bg-primary">Administración y Logistica</span>
+                      <span class="badge text-bg-primary">Contable</span>
+                      <span class="badge text-bg-primary">Legales</span>
+                      
+                    </div>    
+            </div> -->
+
+          </div>
+        </div>
+
+      </section>
+
+<!-- Proyectos -->
+<section class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="seccion-titulo texto-negro"> <strong> <u>En que podemos ayudarte?</u></strong> </h2>
+    <!-- <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente....</h3> -->
+<!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="imagenes/coaching1.jpeg" alt="Coaching">
+              <div class="overlay">
+                <p>Coaching</p>
+                <div class="iconos-contenedor">
+                  <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer"> -->
+                    <i class="bi bi-info-circle-fill"></i>
+                </a>
+                <!-- <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop"></i>
+                </a>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="imagenes/administracion.jpeg" alt="Administracion">
+              <div class="overlay">
+                <p>Administracion</p>
+                <div class="iconos-contenedor">
+                  <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop-fill"></i>
+                </a>
+                <!-- <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop"></i>
+                </a>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="imagenes/deposito.jpeg" alt="Deposito">
+              <div class="overlay">
+                <p>Deposito</p>
+                <div class="iconos-contenedor">
+                  <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer"> -->
+                    <i class="bi bi-truck"></i>
+                </a>
+                <!-- <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop"></i>
+                </a>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="imagenes/Inteligencia emocional.jpeg" alt="Inteligencia Emocional">
+              <div class="overlay">
+                <p>Inteligencia emocional</p>
+                <div class="iconos-contenedor">
+                  <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer"> -->
+                    <i class="bi bi-emoji-laughing"></i>
+                </a>
+                <!-- <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop"></i>
+                </a>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="imagenes/abogados.jpeg" alt="Legal">
+              <div class="overlay">
+                <p>Legales</p>
+                <div class="iconos-contenedor">
+                  <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer"> -->
+                    <i class="bi bi-hammer"></i>
+                </a>
+                <!-- <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop"></i>
+                </a>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+              <img src="imagenes/impuestos.jpeg" alt="Impuestos">
+              <div class="overlay">
+                <p>Impuestos</p>
+                <div class="iconos-contenedor">
+                  <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer"> -->
+                    <i class="bi bi-file-spreadsheet"></i>
+                </a>
+                <!-- <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"> -->
+                  <i class="bi bi-laptop"></i>
+                </a>
+                </div>
+                
+              </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        
+        <a class="btn btn-primary" href="https://calendar.app.google/3PskXLJdzDohhQDY8" role="button"> <strong>Agenda una cita con nosotros</strong> </a>
+    
+  </section>
+
+
+  <footer id="contacto">
+
+<!-- 
+  
+ -->
+
+      </nav>
+    
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-primary">Todos los derchos reservados @2023</button>
+        <button type="button" class="btn btn-primary"></button>
+      
+      </div>
+      <div class="btn-group me-2" role="group" aria-label="Second group">
+        
+        
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"><a class="nav-link" href="#"><img src="imagenes/phone.svg" alt="Telefono"> Telefono: +541140396210</a></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"><a class="nav-link" href="https://www.instagram.com/dora_abuaf/"><img src="imagenes/instagram.svg" alt="Instagram">  Instagram</a></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"> <a class="nav-link active" aria-current="page" href="https://www.facebook.com/dora.abuaf/"> <img src="imagenes/facebook.svg" alt="Telefono">  Facebook</a></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"><a class="nav-link" href="www.linkedin.com/in/dora-abuaf-05261928"><img src="imagenes/linkedin.svg" alt="Linkedin">  Linkdin</a></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"><a class="nav-link" href="https://wa.me/541139399026"><img src="imagenes/whatsapp-icon.svg" alt="Whatsapp">  Whatsapp</a></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+        <button type="button" class="btn btn-secondary"></button>
+       
+       
+        
+        
+        
+      </div>
+     
+    </div>
+
+  </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- 
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+   
+      <a class="navbar-brand" href="#">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-primary">Todos los derchos reservados @2023</button>
+          
+      </a>
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+      
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://www.facebook.com/dora.abuaf/"> <img src="imagenes/facebook.svg" alt="Facebook">  Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/dora_abuaf/"><img src="imagenes/instagram.svg" alt="Instagram">  Instagram</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="www.linkedin.com/in/dora-abuaf-05261928"><img src="imagenes/linkedin.svg" alt="Linkedin">  Linkdin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://wa.me/541139399026"><img src="imagenes/whatsapp-icon.svg" alt="Whatsapp">  Whatsapp</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div> -->
