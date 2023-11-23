@@ -73,6 +73,14 @@ h1{
     padding: 7rem;
     margin-right: 10em;
     margin-left: 10em;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.hero-principal h1{
+       align-items: center;
 }
 
 .hero-imagen-desarrollador{
@@ -86,10 +94,15 @@ h1{
   color: #615151;
 }
 
+.hero-inferior{
+    display: flex;
+    
 .hero-inferior-imagen{
 width: 40%;
 border-radius: 20%;
 margin-bottom: 4em;
+margin: 1em 2em 1em 5em;
+}
 
 }
 
